@@ -20,15 +20,17 @@
 }
 
 .navbar-title{
-    margin: 32px;
+    margin: 24px;
 
 }
 
 .navbar-title-h1{
-    font-family: cursive;
-    font-weight: bold;
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: aliceblue;
     font-size: 32px;
-    color: white;
 }
 
 .navbar-element{
@@ -75,21 +77,25 @@ i{
 .article-container{
     display: flex;
     padding: 150px;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
 }
 .article{
     display: flex;
     flex-direction: column;
     height: 200px;
-    margin: auto;
+    justify-content: start;
+    align-items: start;
 
 }
 .article-container-title-h1{
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     color: aliceblue;
-    font-size: 40px;
-    font-family: cursive;
-    font-weight: bold;
+    font-size: 50px;
+
 
 }
 .article-content{
@@ -105,6 +111,7 @@ i{
 .article-btn{
     display: flex;
     justify-content: start;
+    padding: 5px;
 }
 .article-btn-button{
     background-color: #ffbe33;
@@ -114,11 +121,10 @@ i{
     width: 140px;
     height: 40px;
 }
-
+/**/
 .container-promo{
     padding: 50px;
     display: flex;
-    
     justify-content: center;
     align-items: center;
     gap:30px;
@@ -127,11 +133,22 @@ i{
     display: flex;
     border-radius: 5px 5px 5px;
     height: 200px;
-    width: 400px;
+    width: 550px;
     background-color: #222831;
-    
+
 }
-.first-promo-picture,.second-promo-picture{
+
+.first-promo-content{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.first-promo-picture{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,21 +162,18 @@ i{
     width: 160px
 }
 
-.second-promo{
-    display: flex;
-    border-radius: 5px 5px 5px;
-    height: 200px;
-    width: 400px;
-    background-color: #222831;
+
+.first-promo-content-h1{
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 20px;
+
 }
 
-.first-promo-content-h1,.second-promo-content-h1{
-    font-family: cursive;
-    font-size: 30px;
-    color: white;
-}
-
-.first-promo-content-price,.second-promo-content-price{
+.first-promo-content-price{
     font-family: cursive;
     font-size: 30px;
     color: white;
@@ -187,6 +201,7 @@ span{
     display: flex;
     flex-direction: column;
     
+    
 }
 .food-title{
     display: flex;
@@ -194,20 +209,28 @@ span{
     align-items: center;
 }
 .food-title-h1{
-    font: 40px cursive;
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: aliceblue;
+    font-size: 30px;
     color: #222831;
 }
 .food-items{
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
+
 .food-list{
+    width: 50%;    
     display: flex;
     list-style-type: none;
-    font-size: 15px;
-    font-family: sans-serif;
-    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
 }
 
 .food-flex{
