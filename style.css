@@ -76,16 +76,15 @@ i{
 
 .article-container{
     display: flex;
+    margin-left: 50px;
     padding: 150px;
-    justify-content: start;
-    align-items: start;
+    
 }
 .article{
     display: flex;
     flex-direction: column;
     height: 200px;
-    justify-content: start;
-    align-items: start;
+    gap: 10px;
 
 }
 .article-container-title-h1{
@@ -200,13 +199,15 @@ span{
 .container-food{
     display: flex;
     flex-direction: column;
-    
+    background-color: #ffbe33;   
+    height: 500px;
     
 }
 .food-title{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: antiquewhite;
 }
 .food-title-h1{
     font-family: "Playwrite PL", cursive;
@@ -246,38 +247,62 @@ span{
     background-color: #222831;
     display: inline-block;
     border-radius: 12px 12px;
+    width: 300px;
 }
 .food-image{
     background-color: aliceblue;
     border-radius: 5px 12px 2px;
+    display: flex;
+    width: 300px;
+    height: 200px;
     
 }
 .food-image-img{
-    width: 80%;
+    margin: auto;
+    width: 150px;
+    height: 150px;
 
 }
 .food-content-p{
-    color: aliceblue;
-    font: 10px cursive;
+    background-color: red;
+    width: 90%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
 }
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+.a{
+    font-size: 15px;
+}
+
 .food-price{
     background-color: #222831;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    gap :20px;
+    border-radius: 20px 20px 20px;
+    background-color: blue;
 }
 .price{
     color: aliceblue;
-    font-size: 10px;
-    background-color: #ffbe33;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    background-color: red;
+    width: 50%;
+   
 
 }
 .fa-cart-shopping{
     font-size: 10px;
-    background-color: #ffbe33;
+    color: aliceblue;
     background-size: 20px;
-    border-radius: 60%;
+    
     
 }
 .food-btn{
