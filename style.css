@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .navbar-title{
@@ -78,7 +79,6 @@ i{
     display: flex;
     margin-left: 50px;
     padding: 150px;
-    margin: auto;
     
 }
 .article{
@@ -243,11 +243,16 @@ span{
     border-radius: 10px 10px 10px;
    
 }
+img {
+    max-width: 100%;
+    height: auto;
+}
 .food{
     background-color: #222831;
     display: inline-block;
     border-radius: 12px 12px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
 }
 .food-image{
     background-color: aliceblue;
@@ -321,3 +326,20 @@ p{
     height: 40px;
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar-element-ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .container-promo {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .food-flex {
+        gap: 20px;
+    }
+}
