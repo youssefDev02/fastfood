@@ -195,19 +195,19 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 .container-food{
     display: flex;
     flex-direction: column;
-    background-color: #ffbe33;   
-    height: 500px;
+    gap: 30px;
+    height: 1000px;
     
 }
 .food-title{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
 }
 .food-title-h1{
     font-family: "Playwrite PL", cursive;
@@ -235,9 +235,9 @@ span{
 }
 
 .food-flex{
-    height: 300px;
     display: flex;
-    gap: 20px;
+    gap: 60px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border-radius: 10px 10px 10px;
@@ -264,7 +264,6 @@ span{
 
 }
 .food-content-p{
-    background-color: red;
     width: 90%;
     height: 130px;
     display: flex;
@@ -284,17 +283,14 @@ p{
 .food-price{
     background-color: #222831;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     border-radius: 20px 20px 20px;
-    background-color: blue;
 }
 .price{
     color: aliceblue;
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
-    background-color: red;
-    width: 50%;
+    margin-left: 20px;
    
 
 }
